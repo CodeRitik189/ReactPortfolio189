@@ -14,7 +14,7 @@ function App() {
        <About />
        <Service />
        <Project />
-       <Blog />
+       <Blog width={window.innerWidth}/>
        <Contact />
        <Footer />
     </div>

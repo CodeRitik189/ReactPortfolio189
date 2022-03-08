@@ -1,5 +1,5 @@
 import React from "react";
-import footerImg from "./img/logo (1).png";
+import footerImg from "./img/logo.png";
 function Footer() {
   return (
     <div
@@ -11,7 +11,7 @@ function Footer() {
         className="copyright"
         style={{ color: "#c6c9d8", fontSize: "14px", opacity: "0.75" }}
       >
-        Copyright © 2021 programmer Shahriar Sajeeb. All Rights Reserved.
+        Copyright © 2021 programmer Ritik Tripathi. All Rights Reserved.
       </span>
     </div>
   );

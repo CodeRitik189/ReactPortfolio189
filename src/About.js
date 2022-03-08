@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+import aboutImg from "./img/dp1.png";
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -12,7 +12,7 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={aboutImg} alt="" style={{height:"400px",width:"400px"}} className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
@@ -34,10 +34,10 @@ function About() {
                 but the majority have suffered in some form, by injected humour,
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+                <a href="https://drive.google.com/file/d/1ZFDM8FYitcotlDsSNh3wAkK2I_9HF12T/view?usp=sharing">
+                  <button className="about btn pointer">My Resume</button>
                 </a>
-                <a href="#">
+                <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
-import Project1 from './img/portfolio-1.jpg';
-import Project2 from './img/portfolio-2.jpg';
-import Project3 from './img/portfolio-3.jpg';
-import Project4 from './img/portfolio-4.jpg';
+import Project1 from './img/pr3.jpg';
+import Project2 from './img/pr4.png';
+import Project3 from './img/pr1.jpg';
+import Project4 from './img/pr2.png';
 
 function Project() {
   return (
@@ -24,12 +24,12 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={Project1} alt="" className="project__img" />
+                             <img src={Project1} style={{height:"250px",width:"430px"}} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">Social</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#" className="project__btn">View Details</a>
                      </div>
@@ -46,7 +46,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">Infomovie</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#" className="project__btn">View Details</a>
                      </div>
@@ -63,7 +63,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">Hungry Snake</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#" className="project__btn">View Details</a>
                      </div>
@@ -80,7 +80,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">TextUtilizer</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#" className="project__btn">View Details</a>
                      </div>
@@ -97,7 +97,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">ReactPortfolio</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#" className="project__btn">View Details</a>
                      </div>
@@ -114,7 +114,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">Ping Pong</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
                      <a href="#" className="project__btn">View Details</a>
                      </div>

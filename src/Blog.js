@@ -1,8 +1,8 @@
 import React from "react";
 import "./Blog.css";
-import Blog1 from './img/blog-01.jpg';
-import Blog2 from './img/blog-02.jpg';
-import Blog3 from './img/blog-03.jpg';
+import Blog1 from './img/backgr01.jpeg';
+import Blog2 from './img/backgr01.jpeg';
+import Blog3 from './img/backgr01.jpeg';
 
 function Blog() {
   return (
@@ -27,8 +27,8 @@ function Blog() {
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">
-                         <h5 className="project__text">Development</h5>
-                         <h4 className="project__text">Getting tickets to the big show</h4>
+                         <h5 className="project__text">Languages</h5>
+                         <h4 className="project__text">C++,C,Javascript,SQL,HTML5,CSS3</h4>
                          <a href="#" className="blog project__btn btn">Read More</a>
                        </div>
                  </div>
@@ -43,8 +43,8 @@ function Blog() {
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">
-                         <h5 className="project__text">Development</h5>
-                         <h4 className="project__text">Getting tickets to the big show</h4>
+                         <h5 className="project__text">Development Skills</h5>
+                         <h4 className="project__text">MERN(MongoDB Express React Node)</h4>
                          <a href="#" className="blog project__btn btn">Read More</a>
                        </div>
                  </div>
@@ -59,8 +59,8 @@ function Blog() {
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">
-                         <h5 className="project__text">Development</h5>
-                         <h4 className="project__text">Getting tickets to the big show</h4>
+                         <h5 className="project__text">Developer Tools</h5>
+                         <h4 className="project__text">VS Code,Sublime,Code Blocks</h4>
                          <a href="#" className="blog project__btn btn">Read More</a>
                        </div>
                  </div>
@@ -68,6 +68,7 @@ function Blog() {
 
           </div>
       </div>
+      
     </div>
   );
 }
