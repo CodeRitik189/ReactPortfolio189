@@ -32,7 +32,7 @@ function Home() {
                 <li className="nav__items mx__15">Portfolio</li>
               </a>
               <a href="#Blog">
-                <li className="nav__items mx__15">Blog</li>
+                <li className="nav__items mx__15">Skills</li>
               </a>
               <a href="#Contact">
                 <li className="nav__items mx__15">Contact</li>
@@ -97,3 +97,4 @@ function Home() {
 }
 
 export default Home;
+
