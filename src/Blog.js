@@ -8,7 +8,7 @@ function Blog() {
   return (
     <div className="blog component__space" id="Blog">
       <div className="heading">
-        <h1 className="heading">Latest News</h1>
+        <h1 className="heading">SKILLS</h1>
         <p className="heading p__color">
           There are many variations of passages of Lorem Ipsum available,
         </p>
